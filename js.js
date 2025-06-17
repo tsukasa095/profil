@@ -48,5 +48,5 @@ function checkAuth() {
 
 function logout() {
   localStorage.removeItem("loggedInUser");
-  window.location.href = "index.html";
+  window.location.href = "dasboard.html";
 }
