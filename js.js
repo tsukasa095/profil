@@ -29,7 +29,7 @@ function login(event) {
 
   if (validUser) {
     localStorage.setItem("loggedInUser", username);
-    window.location.href = "dashboard.html";
+    window.location.href = "dasboard.html";
   } else {
     alert("Username atau password salah!");
   }
@@ -44,9 +44,4 @@ function checkAuth() {
   } else {
     document.getElementById("username-display").textContent = user;
   }
-}
-
-function logout() {
-  localStorage.removeItem("loggedInUser");
-  window.location.href = "dasboard.html";
 }
